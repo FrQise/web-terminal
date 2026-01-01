@@ -24,9 +24,7 @@ const fileSystem = {
     },
     "documents": { parent: "root", directories: [], files: ["readme.md"] },
     "journal": { parent: "root", directories: [], files: ["01_entry.txt"] },
-    "projects": { parent: "root", directories: ["web", "python"], files: ["list.txt"] },
-    "web": { parent: "projects", directories: [], files: ["index.html", "script.js"] },
-    "python": { parent: "projects", directories: [], files: ["bot.py"] },
+    "projects": { parent: "root", directories: [], files: [] },
     "recipes": { parent: "root", directories: [], files: ["chef.txt"] }
 };
 
