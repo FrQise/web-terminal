@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frqise Terminal OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal-container" onclick="document.getElementById('user-input').focus()">
+        <header class="header-box">
+            <pre class="gold-text">
+╔════════════════════════════════════════════════════╗
+║    ███████╗██████╗  ██████╗ ██╗███████╗███████╗    ║
+║    ██╔════╝██╔══██╗██╔═══██╗██║██╔════╝██╔════╝    ║
+║    █████╗  ██████╔╝██║   ██║██║███████╗█████╗      ║
+║    ██╔══╝  ██╔══██╗██║▄▄ ██║██║╚════██║██╔══╝      ║
+║    ██║     ██║  ██║╚██████╔╝██║███████║███████╗    ║
+║    ╚═╝     ╚═╝  ╚═╝ ╚══▀▀═╝ ╚═╝╚══════╝╚══════╝    ║
+╚════════════════════════════════════════════════════╝</pre>
+            <p class="dim-text">SYSTEM: <span id="random-tip">Initializing...</span></p>
+        </header>
+
+        <div id="terminal-history">
+            <div id="output-buffer"></div>
+            <div class="input-line">
+                <div id="prompt-label">
+                    <span class="user-part">guest@frqise</span><span class="white-text">:</span><span class="path-part" id="current-dir">~</span><span class="white-text">$</span>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" id="user-input" autofocus autocomplete="off" spellcheck="false">
+                    <span id="suggestion-hint" class="dim-text"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
