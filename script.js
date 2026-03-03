@@ -24,7 +24,7 @@ const fileSystem = {
     },
     "documents": { parent: "root", directories: [], files: ["readme.md"] },
     "journal": { parent: "root", directories: [], files: ["01_entry.txt"] },
-    "projects": { parent: "root", directories: [], files: [] },
+    "projects": { parent: "root", directories: [], files: ["Vault-F", "Cloak-F", "Shredder-F", "Checkmate-F", "Stencil-F"] },
     "recipes": { parent: "root", directories: [], files: ["chef.txt"] }
 };
 
@@ -34,6 +34,12 @@ const fileData = {
     "readme.md": "# Documents\nTest Readme File",
     "01_entry.txt": `DATE: 2026-01-01\nTITLE: First Entry\n-------------------\nThis is an example journal entry.`,
     "chef.txt": "Go to the kebab, call them Chef, enjoy your meal.",
+    "Vault-F": "A lightweight, local-first file password manager utilizing AES-256 and PBKDF2.\nhttps://github.com/FrQise/Vault-F",
+    "Cloak-F": " A lightweight, local-first file encryption and compression utility utilizing AES-256 and PBKDF2.\nhttps://github.com/FrQise/Cloak-F",
+    "Shredder-F": " A lightweight, local-first secure data eraser & disk sanitizer\nhttps://github.com/FrQise/Shredder-F",
+    "Checkmate-F": " A lightweight, local-first forensic file integrity & directory auditing program.\nhttps://github.com/FrQise/Checkmate-F",
+    "Stencil-F": "A lightweight, local-first steganographic protection & AI-poisoning utility for digital media.\nhttps://github.com/FrQise/Stencil-F",
+    
 };
 
 // Commands List
